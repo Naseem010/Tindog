@@ -1,0 +1,141 @@
+#title{
+  text-align: left;
+}
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,h2,h3{
+    font-family:"Montserrat";
+    font-weight:bold;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+/* heading */
+.big-heading{
+  font-weight: bold;
+  font-size:2.5rem;
+  line-height:1.5;
+}
+.testimonials-heading{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.pricing-heading{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+/* background-section */
+.colored-section{
+background-color: #ff4c68;
+color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+
+/* navigation-bar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+/* navbar bottom padding */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+/* Download button */
+.Download-button{
+  margin:5% 3% 0 0;
+}
+.title-image{
+  width: 17%;
+  transform: rotate(25deg);
+position: absolute;
+right:330px;
+}
+/* features */
+#features{
+  padding: 5% 13%;
+
+  position: relative;
+}
+.features-box{
+  padding: 5%;
+}
+.features-h3{
+  font-weight:bold;
+  font-size:1.3rem;
+}
+.features-icon{
+color:#ef8172;
+margin-bottom: 1rem;
+}
+.features-icon:hover{
+  color: #ff4c68;
+}
+
+p{
+  color: #8f8f8f;
+}
+/* testimonials */
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonials-image{
+  width: 25%;
+  border-radius: 100%;
+  padding:20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* press */
+#press{
+  background-color: #ef8172;
+padding: 5%;
+}
+.press-logo{
+  width: 15%;
+  margin: 0 15px 5px;
+}
+/* pricing coloumn */
+#pricing{
+  padding: 5% 10%;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+/* media query */
+@media (max-width:1000px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    margin-top: 20px;
+  }
+}
+/* cta */
+#cta{
+  padding: 4% 30%;
+}
+
+/* footer */
+#footer{
+  margin: 5%
+}
+.footer-p{
+  margin: 2%
+}
